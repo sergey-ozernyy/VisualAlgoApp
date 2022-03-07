@@ -33,9 +33,6 @@ class MyAlgorithmRecyclerViewAdapter(
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val item = values[position]
-        if (position == 0){
-            holder.contentView.text = ""
-        }
         holder.idView.text = item.id
         holder.contentView.text = item.content
         holder.itemView.setOnClickListener {
