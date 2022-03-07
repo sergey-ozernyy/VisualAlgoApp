@@ -17,6 +17,8 @@ class MyAlgorithmRecyclerViewAdapter(
     private val values: List<PlaceholderItem>
 ) : RecyclerView.Adapter<MyAlgorithmRecyclerViewAdapter.ViewHolder>() {
 
+    val viewModel = AlgorithmViewModel()
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
 
         return ViewHolder(
@@ -31,8 +33,15 @@ class MyAlgorithmRecyclerViewAdapter(
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val item = values[position]
+        if (position == 0){
+            holder.contentView.text = ""
+        }
         holder.idView.text = item.id
         holder.contentView.text = item.content
+        holder.itemView.setOnClickListener {
+            viewModel.navigateToDetails()
+        }
+        //TODO: Нужно устанавливать слушатель кликов во фрагменте, а не в адаптере, чтобы не держать в памяти ViewModel.
     }
 
     override fun getItemCount(): Int = values.size
