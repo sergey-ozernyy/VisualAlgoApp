@@ -8,6 +8,7 @@ import androidx.recyclerview.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.AdapterView
 import com.example.androidvisualalgoapp.placeholder.PlaceholderContent
 
 /**
@@ -41,6 +42,8 @@ class AlgorithmFragment : Fragment() {
                 adapter = MyAlgorithmRecyclerViewAdapter(PlaceholderContent.ITEMS)
             }
         }
+
+
         return view
     }
 

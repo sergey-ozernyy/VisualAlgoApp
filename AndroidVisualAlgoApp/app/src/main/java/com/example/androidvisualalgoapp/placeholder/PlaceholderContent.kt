@@ -36,7 +36,11 @@ object PlaceholderContent {
     }
 
     private fun createPlaceholderItem(position: Int): PlaceholderItem {
-        return PlaceholderItem(position.toString(), "Item " + position, makeDetails(position))
+        return if (position == 1) {
+            PlaceholderItem(position.toString(), "Задача о 8 ферзях", makeDetails(position))
+        } else {
+            PlaceholderItem(position.toString(), "Item " + position, makeDetails(position))
+        }
     }
 
     private fun makeDetails(position: Int): String {
