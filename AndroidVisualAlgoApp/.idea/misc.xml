@@ -4,9 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/serge/GitHub/VisualAlgoApp/AndroidVisualAlgoApp/app/src/main/res/layout/activity_main.xml" value="0.1793478260869565" />
-        <entry key="..\:/Users/serge/GitHub/VisualAlgoApp/AndroidVisualAlgoApp/app/src/main/res/layout/fragment_algorithm.xml" value="0.1793478260869565" />
-        <entry key="..\:/Users/serge/GitHub/VisualAlgoApp/AndroidVisualAlgoApp/app/src/main/res/layout/fragment_algorithm_details.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/serge/GitHub/VisualAlgoApp/AndroidVisualAlgoApp/app/src/main/res/layout/fragment_algorithm.xml" value="0.536" />
+        <entry key="..\:/Users/serge/GitHub/VisualAlgoApp/AndroidVisualAlgoApp/app/src/main/res/layout/fragment_algorithm_details.xml" value="0.264" />
         <entry key="..\:/Users/serge/GitHub/VisualAlgoApp/AndroidVisualAlgoApp/app/src/main/res/layout/fragment_algorithm_list.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/serge/GitHub/VisualAlgoApp/AndroidVisualAlgoApp/app/src/main/res/layout/fragment_list_algorithms.xml" value="0.264" />
       </map>
     </option>
   </component>
