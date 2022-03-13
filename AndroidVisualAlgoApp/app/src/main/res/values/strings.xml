@@ -2,4 +2,6 @@
     <string name="app_name">AndroidVisualAlgoApp</string>
 <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="left_button"><![CDATA[<]]></string>
+    <string name="right_button"><![CDATA[>]]></string>
 </resources>
